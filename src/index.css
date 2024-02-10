@@ -12,13 +12,11 @@ body {
     background-color: #27187e;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.name,
+.role {
     font-family: "Panchang", sans-serif;
+    display: block;
+    font-kerning: none;
 }
 
 p,
@@ -26,7 +24,10 @@ p,
     font-family: "Satoshi", sans-serif;
 }
 
-.nav-item {
+.nav-item,
+.nav-title,
+.nav-item > span div {
+    display: block;
     color: #ff8600;
     font-size: 26px;
     font-weight: 400;
